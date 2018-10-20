@@ -1,9 +1,9 @@
 {
 	"name": "my-test-app",
 	"description": "this is a testing app",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"scripts": {
-		"test": "mocha --reporter spec"
+		"test": "./node_modules/.bin/mocha --reporter spec"
 	},
 	"dependencies": {
 		"express": "4.16.0"
