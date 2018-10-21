@@ -1,7 +1,7 @@
 {
 	"name": "my-test-app",
 	"description": "this is a testing app",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"scripts": {
 		"test": "./node_modules/.bin/mocha --reporter spec"
 	},
