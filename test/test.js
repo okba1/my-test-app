@@ -1,9 +1,17 @@
-var request = require('supertest');
-var app = require('../index.js');
+var expect = require('chai').expect;
+var somme = require('../index.js');
 
-describe('GET /', function() {
-    it('respond with hello world', function(done) {
-        //navigate to root and check the the response is "hello world"
-        request(app).get('/').expect('hello world', done);
-    });
+describe('somme', function() {
+    it('should sum two values', function(){
+        // 1. WHEN
+        var x = 5;
+        var y = 1;
+
+        // 2. CALLING
+        var sum = somme(x, y);
+  
+        // 3. SHOULD
+        expectedSum = 6
+        expect(sum).to.be.equal(expectedSum);
+    })
 });
