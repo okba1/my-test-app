@@ -3,7 +3,7 @@
 	"description": "this is a testing app",
 	"version": "1.0.2",
 	"scripts": {
-		"test": "./script/test"
+		"test": "mocha"
 	},
 	"dependencies": {
 		"express": "4.16.0"
